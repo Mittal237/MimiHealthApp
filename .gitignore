@@ -21,8 +21,11 @@ fitness-backend/__pycache__/
 fitness-backend/**/*.pyc
 fitness-backend/app.db
 
-fitness-backend/.env
-fitness-backend/.env.*
+# Backend environment variables (ignore ALL .env files)
+fitness-backend/**/.env
+fitness-backend/**/.env.*
+
+# Allow example env
 !fitness-backend/.env.example
 
 .vscode/
